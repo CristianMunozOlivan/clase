@@ -4,6 +4,21 @@
     <style>
         th,td{
             text-align: center;
+            border: 2px solid red;
+        }
+        th{
+            font-size: large;
+        }
+        table{
+           border-style: double;
+           background-color: black;
+           color: white;
+        }
+        .marcadas{
+            background-color: yellow;
+        }
+        .vacias{
+            background-color: aliceblue;
         }
     </style>
    <title>Calendario</title>
@@ -20,12 +35,12 @@
             <th>Domingo</th>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
             <td>1</td>
         </tr>
         <tr>
@@ -38,19 +53,19 @@
             <td>8</td>
         </tr>
         <tr>
-            <td><mark>9</mark></td>
-            <td><mark>10</mark></td>
-            <td><mark>11</mark></td>
-            <td><mark>12</mark></td>
-            <td><mark>13</mark></td>
+            <td class="marcadas"><mark>9</mark></td>
+            <td class="marcadas"> <mark>10</mark></td>
+            <td class="marcadas"><mark>11</mark></td>
+            <td class="marcadas"><mark>12</mark></td>
+            <td class="marcadas"><mark>13</mark></td>
             <td>14</td>
             <td>15</td>
         </tr>
         <tr>
-            <td><mark>16</mark></td>
-            <td><mark>17</mark></td>
-            <td><mark>18</mark></td>
-            <td><mark>19</mark></td>
+            <td class="marcadas"><mark>16</mark></td>
+            <td class="marcadas"><mark>17</mark></td>
+            <td class="marcadas"><mark>18</mark></td>
+            <td class="marcadas"><mark>19</mark></td>
             <td>20</td>
             <td>21</td>
             <td>22</td>
@@ -66,11 +81,11 @@
         <tr>
             <td>30</td>
             <td>31</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
+            <td class="vacias"></td>
         </tr>
     </table>
 </body>

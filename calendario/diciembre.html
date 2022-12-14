@@ -2,9 +2,39 @@
 <html>
 <head>
     <style>
-        th,td{
-            text-align: center;
+        tr{
+            display: flex;
+            flex-direction: row;
+           
         }
+        td{
+            height: 100px;
+            align-items: center;
+        }
+        th, td{
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            
+            
+            background-color: yellow;
+            border-color: black;
+            border-style: solid ;
+        }
+       
+        td > label:first-child{
+            align-self: end;
+            font-size: 0.75em;
+            background-color: aqua;
+        }
+
+        td > label:last-child{
+            align-self: center;
+            font-size: 2em;
+            color: red;
+        }
+
+       
     </style>
    <title>Calendario</title>
 </head>
@@ -23,35 +53,35 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><mark>1</mark></td>
-            <td><mark>2</mark></td>
+            <td><label >1</label><label >x</label></td>
+            <td><label >2</label><label >x</label></td>
             <td>3</td>
             <td>4</td>
         </tr>
         <tr>
             <td>5</td>
             <td>6</td>
-            <td><mark>7</mark></td>
+            <td><label >7</label><label >x</label></td>
             <td>8</td>
-            <td><mark>9</mark></td>
+            <td><label >9</label><label >x</label></td>
             <td>10</td>
             <td>11</td>
         </tr>
         <tr>
-            <td><mark>12</mark></td>
-            <td><mark>13</mark></td>
-            <td><mark>14</mark></td>
-            <td><mark>15</mark></td>
-            <td><mark>16</mark></td>
+            <td><label >12</label><label >x</label></td>
+            <td><label >13</label><label >x</label></td>
+            <td><label >14</label><label >x</label></td>
+            <td><label >15</label><label >x</label></td>
+            <td><label >16</label><label >x</label></td>
             <td>17</td>
             <td>18</td>
         </tr>
         <tr>
-            <td><mark>19</mark></td>
-            <td><mark>20</mark></td>
-            <td><mark>21</mark></td>
-            <td><mark>22</mark></td>
-            <td><mark>23</mark></td>
+            <td><label >19</label><label >x</label></td>
+            <td><label >20</label><label >x</label></td>
+            <td><label >21</label><label >x</label></td>
+            <td><label >22</label><label >x</label></td>
+            <td><label >23</label><label >x</label></td>
             <td>24</td>
             <td>25</td>
         </tr>
