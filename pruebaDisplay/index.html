@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: max-content 1fr 1fr;
+  grid-template-rows: max-content 20px 100px max-content;
+  gap: 5px;
+  grid-template-areas: "header header header"
+                        "nav nav nav"
+                        "aside main main"
+                        "footer footer footer";
+}
+
+.header{
+    grid-area: header;  
+    text-align: center;
+    background-color: aqua;
+}
+.nav{
+    grid-area: nav;
+    text-align: center;
+    background-color: red;
+}
+.aside{
+    grid-area: aside;
+    text-align: center;
+    background-color: yellow;
+}
+.main{
+    grid-area: main;
+    text-align: center;
+    background-color: green;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="header">header</div>
+  <div class="nav">nav</div>
+  <div class="main">main</div>
+  <div class="aside">aside</div>
+  <div class="footer">footer</div>
+ <!-- <div class="grid-item6">6</div>
+  <div class="grid-item1">7</div>
+  <div class="grid-item2">8</div>
+  <div class="grid-item3">9</div>
+  <div class="grid-item4">10</div>
+  <div class="grid-item5">11</div>
+  <div class="grid-item6">12</div>-->
+</div>
+
+</body>
+</html>
